@@ -10,6 +10,7 @@
 .header-logo {
     display: flex;
     align-items: flex-start;
+    flex-shrink: 0;
 }
 
 .header-content {
@@ -24,6 +25,9 @@ Body {
     background-image: url(images/headphones_hero_1.jpg);
 }
 
+h3 {
+    align-items: center;    
+}
 
 
 
