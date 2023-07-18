@@ -222,3 +222,59 @@ ul {
   /* line-height: 26px; */
    /* 162.5% */
 }
+
+.icon {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+  /* width: 1002px;
+  height: 193px; */
+}
+
+.sound-frequency {
+  display: flex;
+  flex-direction: column;
+  width: 207px;
+  height: 52px;
+  align-items: center;
+}
+
+.sound-frequency p {
+  text-align: center;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+  width: 207px;
+  height: 52px;
+  align-items: center;
+}
+
+.video p {
+  text-align: center;
+}
+
+.music {
+  display: flex;
+  flex-direction: column;
+  width: 207px;
+  height: 52px;
+  align-items: center;
+}
+
+.music p {
+  text-align: center;
+}
+
+.hearing {
+  display: flex;
+  flex-direction: column;
+  width: 207px;
+  height: 52px;
+  align-items: center;
+}
+
+.hearing p {
+  text-align: center;
+}
