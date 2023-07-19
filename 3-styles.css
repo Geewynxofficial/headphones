@@ -230,6 +230,9 @@ ul {
 .sound-frequency p {
   text-align: center;
 }
+.bold {
+  margin-bottom: 20px;
+}
 
 .video {
   display: flex;
@@ -309,3 +312,27 @@ ul {
     margin-left: 150px;
     margin-right: 150px;
   }
+
+.contact-us {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  color: #071629;
+  text-align: center;
+  font-family: SourceSansPro;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+ }
+
+ .form-design {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+ }
+
+ .form {
+    width: 335px;
+ }
