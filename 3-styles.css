@@ -270,6 +270,8 @@ ul {
   text-align: center;
 }
 
+/* OUR RESULT SPEAKS */
+
 .third-page {
   background-image: url(images/headphones_hero_2.jpg);
   width: 1400px;
@@ -313,10 +315,14 @@ ul {
     margin-right: 150px;
   }
 
+  /* CONTACT-US =============== */
+
+
 .contact-us {
   display: flex;
   justify-content: center;
   margin-top: 200px;
+  margin-bottom: 50px;
   color: #071629;
   text-align: center;
   font-family: SourceSansPro;
@@ -326,13 +332,41 @@ ul {
   line-height: normal;
  }
 
- .form-design {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+.form-design {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+input {
+  width: 335px;
+  height: 29px;
  }
 
- .form {
-    width: 335px;
- }
+ 
+.form-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-call-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 162px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 22px;
+  background: #ff6565;
+  margin-top: 50px;
+}
+
+.form-call-action a {
+  color: #ffffff;
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  text-decoration: none;
+}
+
