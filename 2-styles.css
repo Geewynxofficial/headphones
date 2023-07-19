@@ -213,6 +213,8 @@ ul {
   justify-content: space-around;
   margin-top: 100px;
   margin-bottom: 100px;
+  margin-left: 150px;
+  margin-right: 150px;
   /* width: 1002px;
   height: 193px; */
 }
@@ -298,4 +300,12 @@ ul {
 
   .our-para {
       width: 639px;
+  }
+
+  .polygon {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+    margin-left: 150px;
+    margin-right: 150px;
   }
