@@ -366,15 +366,25 @@ input {
  .cover {
   display: flex;
   flex-direction: row;
-  align-content: space-between;
-  margin-top: 100px;
+  /* align-content: space-between; */
+  margin-top: 80px;
   
  }
   .footer-logo {
     margin-left: 100px;
+    width: 161px;
+    height: 32px;
   }
 
   .footer-social-icons {
     display: flex;
     margin-left: 900px;
+    width: 130px;
+    height: 30px;
+  }
+  .last-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    color: #FFF;
   }
